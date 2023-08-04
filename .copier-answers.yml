@@ -15,4 +15,3 @@ python_name: voila_topbar
 repository: https://github.com/voila-dashboards/voila-topbar
 test: false
 viewer_name: ''
-
