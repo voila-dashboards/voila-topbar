@@ -10,22 +10,36 @@
   height: 50px;
   background: #5f63a0;
   width: calc(100% + 20px);
-  margin: -10px;
   box-shadow:
     rgba(0 0 0 / 20%) 0 2px 4px -1px,
     rgba(0 0 0 / 14%) 0 4px 5px 0,
     rgba(0 0 0 / 12%) 0 1px 10px 0;
   padding-right: 20px;
   padding-left: 40px;
+  gap: 10px
 }
 
 .voila-topbar-title {
   flex-grow: 1;
-  line-height: 55px;
+  line-height: 50px;
   font-size: 30px;
   color: aliceblue;
 }
 
+.voila-topbar-theme {
+  background: inherit;
+  color: aliceblue;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+}
 div#voila-top-panel {
   min-height: 50px !important;
+}
+
+.jp-Statusbar-ProgressCircle path {
+  fill: #f0f8ff!important;
+}
+.jp-Statusbar-ProgressCircle circle {
+  stroke: #f0f8ff!important;
 }
