@@ -1,6 +1,6 @@
 # voila_topbar
 
-[![Github Actions Status](https://github.com/trungleduc/voila_topbar/workflows/Build/badge.svg)](https://github.com/trungleduc/voila_topbar/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/voila-dashboards/voila-topbar/workflows/Build/badge.svg)](https://github.com/voila-dashboards/voila-topbar/actions/workflows/build.yml)
 A Voila extension
 
 ## Requirements
