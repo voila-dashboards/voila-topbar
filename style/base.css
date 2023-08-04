@@ -1,0 +1,31 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+.voila-topbar {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background: #5f63a0;
+  width: calc(100% + 20px);
+  margin: -10px;
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0px 2px 4px -1px,
+    rgba(0, 0, 0, 0.14) 0px 4px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+
+.voila-topbar-title {
+  flex-grow: 1;
+  line-height: 55px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+div#voila-top-panel {
+  min-height: 50px !important;
+}
