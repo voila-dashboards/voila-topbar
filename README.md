@@ -1,7 +1,31 @@
 # voila_topbar
 
 [![Github Actions Status](https://github.com/voila-dashboards/voila-topbar/workflows/Build/badge.svg)](https://github.com/voila-dashboards/voila-topbar/actions/workflows/build.yml)
-A Voila extension
+
+![vl3](https://github.com/voila-dashboards/voila-topbar/assets/4451292/d8bcf47c-5661-41bc-b0da-35624e28d33c)
+
+`voila_topbar` is a Voila extension that adds a top bar to the dashboards and the tree page. The top bar can contain a logo, a title, a theme selector and a kernel status indicator.
+
+To configure the top bar, you can use the `voila.json` file with the following content:
+
+```js
+// voila.json
+{
+  "VoilaConfiguration": {
+    "extension_config": {
+      "voila_topbar": {
+        "background": "red",
+        "textColor": "blue",
+        "title": "My title",
+        "icon": "link-to-the-icon-file",
+        "kernelActivity": true,
+        "themeToggle": true
+      }
+    }
+  }
+}
+
+```
 
 ## Requirements
 
