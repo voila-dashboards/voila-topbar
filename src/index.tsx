@@ -27,7 +27,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const extensionConfig = JSON.parse(PageConfig.getOption('extensionConfig'));
     const config = extensionConfig['voila_topbar'] as ITopbarConfig | undefined;
     console.log('config', config);
-    
+
     const widget = ReactWidget.create(
       <TopbarElement
         config={config}
