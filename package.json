@@ -93,10 +93,10 @@
         "outputDir": "voila_topbar/labextension",
         "sharedPackages": {
             "@jupyter-widgets/base": {
-              "bundled": false,
-              "singleton": true
+                "bundled": false,
+                "singleton": true
             }
-          }
+        }
     },
     "eslintIgnore": [
         "node_modules",

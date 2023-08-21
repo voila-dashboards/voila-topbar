@@ -25,6 +25,10 @@ export namespace ProgressCircle {
      * Element height
      */
     height?: number;
+    /**
+     * Color ò the stroke
+     */
+    stroke?: string;
   }
 }
 
@@ -63,11 +67,12 @@ export function ProgressCircle(props: ProgressCircle.IProps): JSX.Element {
           r={`${radius}`}
           strokeWidth="20"
           fill="none"
+          stroke={props.stroke ?? 'var(--jp-inverse-layout-color2)'}
         />
         <path
           transform="translate(125,125) scale(.9)"
           d={d(props.progress)}
-          fill={'#f0f8ff'}
+          fill={props.stroke ?? 'var(--jp-inverse-layout-color2)'}
         />
       </svg>
     </div>
