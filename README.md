@@ -1,6 +1,8 @@
 # voila_topbar
 
 [![Github Actions Status](https://github.com/voila-dashboards/voila-topbar/workflows/Build/badge.svg)](https://github.com/voila-dashboards/voila-topbar/actions/workflows/build.yml)
+[![PyPI - Version](https://img.shields.io/pypi/v/voila_topbar)](https://pypi.org/project/voila-topbar/)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/voila_topbar.svg)](https://anaconda.org/conda-forge/voila_topbar)
 
 ![vl3](https://github.com/voila-dashboards/voila-topbar/assets/4451292/d8bcf47c-5661-41bc-b0da-35624e28d33c)
 
@@ -39,12 +41,24 @@ To install the extension, execute:
 pip install voila_topbar
 ```
 
+or
+
+```bash
+conda install -c conda-forge voila_topbar
+```
+
 ## Uninstall
 
 To remove the extension, execute:
 
 ```bash
 pip uninstall voila_topbar
+```
+
+or
+
+```bash
+conda remove voila_topbar
 ```
 
 ## Contributing
